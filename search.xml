@@ -4,6 +4,211 @@
   
     
     <entry>
+      <title><![CDATA[Markdown Introduction]]></title>
+      <url>http://Sandyxind.github.io/2017/01/28/Markdown/</url>
+      <content type="html"><![CDATA[<p>Markdown introduction<br>Software for Markdown</p>
+<a id="more"></a>
+<h2 id="Markdown-Basic-command"><a href="#Markdown-Basic-command" class="headerlink" title="Markdown Basic command"></a>Markdown Basic command</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><ul>
+<li><p># for heading one</p>
+<blockquote>
+<h1 id="Heading-one"><a href="#Heading-one" class="headerlink" title="Heading one"></a>Heading one</h1></blockquote>
+</li>
+<li><p>## for heading two  </p>
+<blockquote>
+<h2 id="Heading-two"><a href="#Heading-two" class="headerlink" title="Heading two"></a>Heading two</h2></blockquote>
+</li>
+<li><p>### for heading three</p>
+<blockquote>
+<h3 id="Heading-three"><a href="#Heading-three" class="headerlink" title="Heading three"></a>Heading three</h3></blockquote>
+</li>
+<li><p>#### for heading four</p>
+<blockquote>
+<h4 id="Heading-four"><a href="#Heading-four" class="headerlink" title="Heading four"></a>Heading four</h4></blockquote>
+</li>
+</ul>
+<h3 id="Front-Style"><a href="#Front-Style" class="headerlink" title="Front Style"></a>Front Style</h3><ul>
+<li><p>Italic: <code>_content_</code></p>
+<blockquote>
+<p><em>italic</em></p>
+</blockquote>
+</li>
+<li><p>Blod: <code>** **</code></p>
+<blockquote>
+<p><strong>Blod</strong></p>
+</blockquote>
+</li>
+</ul>
+<h3 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h3><ul>
+<li><p>Inline Link</p>
+<blockquote>
+<p><code>[linkname](link)</code></p>
+</blockquote>
+</li>
+<li><p>Reference Link<br>&gt;</p>
+<pre><code>[content][nickname]
+[nickname]: URL &quot;Showtext&quot; //Can be use for multi lines
+</code></pre></li>
+</ul>
+<h3 id="image"><a href="#image" class="headerlink" title="image"></a>image</h3><ul>
+<li><p>Inline Link</p>
+<blockquote>
+<p><code>![alt text](url for image)</code></p>
+</blockquote>
+</li>
+<li><p>Reference Link</p>
+<blockquote>
+<p>same to Reference link of words</p>
+</blockquote>
+</li>
+</ul>
+<h3 id="Lists"><a href="#Lists" class="headerlink" title="Lists"></a>Lists</h3><ul>
+<li><p>Bullet Point: ‘* content ‘</p>
+<blockquote>
+<ul>
+<li>content 1</li>
+<li>content 2</li>
+</ul>
+</blockquote>
+</li>
+<li><p>Number</p>
+<blockquote>
+<ol>
+<li>content</li>
+<li>content</li>
+</ol>
+</blockquote>
+</li>
+</ul>
+<h3 id="Table"><a href="#Table" class="headerlink" title="Table"></a>Table</h3><table>
+<thead>
+<tr>
+<th style="text-align:left">Header One</th>
+<th style="text-align:center">Header Two</th>
+<th style="text-align:right">Header Three</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Left</td>
+<td style="text-align:center">Center</td>
+<td style="text-align:right">Right</td>
+</tr>
+</tbody>
+</table>
+<h3 id="Other"><a href="#Other" class="headerlink" title="Other"></a>Other</h3><ul>
+<li><p>Blockquotes</p>
+<blockquote>
+<p><code>&gt; content</code></p>
+</blockquote>
+</li>
+<li><p>Text Highlight</p>
+<blockquote>
+<p>Two point which near number 1</p>
+</blockquote>
+</li>
+<li><p>Soft Break</p>
+<blockquote>
+<p>Two space at the end of line</p>
+</blockquote>
+</li>
+</ul>
+<h3 id="Reference-Link"><a href="#Reference-Link" class="headerlink" title="Reference Link"></a>Reference Link</h3><blockquote>
+<ol>
+<li>Markdown——入门指南 by <strong>_Te_Lee_</strong> on <code>2014-04-17</code>: <a href="http://www.jianshu.com/p/1e402922ee32/" target="_blank" rel="external">More</a></li>
+<li>Tutorial for Markdown: <a href="http://www.markdowntutorial.com" target="_blank" rel="external">More</a></li>
+<li>Markdown-Wiki: <a href="https://zh.wikipedia.org/wiki/Markdown" target="_blank" rel="external">More</a></li>
+<li>Markdown Document: <a href="http://daringfireball.net/projects/markdown/" target="_blank" rel="external">More</a></li>
+</ol>
+</blockquote>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[GitHub and Pages Introduction]]></title>
+      <url>http://Sandyxind.github.io/2017/01/28/GitHub_pages_introduce/</url>
+      <content type="html"><![CDATA[<p>GitHub Pages introduction<br>Hexo introduction and installing<br>Yelee installing</p>
+<a id="more"></a>
+<h2 id="GitHub-Pages-with-Hexo"><a href="#GitHub-Pages-with-Hexo" class="headerlink" title="GitHub Pages with Hexo"></a>GitHub Pages with Hexo</h2><h3 id="Necessary-Software"><a href="#Necessary-Software" class="headerlink" title="Necessary Software/"></a>Necessary Software/</h3><blockquote>
+<ul>
+<li>Node.js</li>
+<li>Git</li>
+<li>Hexo</li>
+</ul>
+</blockquote>
+<h3 id="Command-Summarize"><a href="#Command-Summarize" class="headerlink" title="Command Summarize"></a>Command Summarize</h3><ul>
+<li>Installing Hexo<pre><code class="bash">$ npm install hexo-cli -g
+</code></pre>
+</li>
+<li>Creating Blog<pre><code class="bash">//Creating and initializing Blog. &lt;folder&gt; is the name of Blog
+$ hexo init &lt;folder&gt;
+</code></pre>
+</li>
+<li>Installing relevant packages<pre><code class="bash">$ cd &lt;folder&gt;
+$ hexo install
+</code></pre>
+</li>
+<li>Creating new pages<pre><code class="bash">$ hexo new page &lt;folder&gt;
+</code></pre>
+</li>
+<li>Creating new post<pre><code class="bash">$ hexo new &#39;postname&#39;
+</code></pre>
+</li>
+<li>Testing Off-line<pre><code class="bash">$ hexo server
+</code></pre>
+</li>
+<li>Testing Off-line<pre><code class="bash">$ hexo server
+</code></pre>
+</li>
+<li>Transfering to Static website<br>Using this command will create a public folder. Copy all files to GitHub Pages can update your website through GitHub Desktop App.<pre><code class="bash">$ hexo generate
+</code></pre>
+</li>
+</ul>
+<h3 id="Theme-Yelee"><a href="#Theme-Yelee" class="headerlink" title="Theme Yelee"></a>Theme Yelee</h3><ol>
+<li>Setting Theme by following document: <a href="http://moxfive.coding.me/yelee/" target="_blank" rel="external">Yelee</a></li>
+<li>Create new item in the left.<ul>
+<li>using below code to create folder</li>
+<li>Getting in to this folder and editing indexl.md<pre><code class="bash">$ hexo new page &lt;folder&gt;
+</code></pre>
+</li>
+</ul>
+</li>
+<li>Add Google Code Prettify.<ul>
+<li>Folowing <a href="https://liuzhichao.com/2016/hexo-use-prettify-to-highlight-code.html" target="_blank" rel="external">This</a></li>
+</ul>
+</li>
+</ol>
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul>
+<li><p>Hexo</p>
+<blockquote>
+<ol>
+<li>Hexo: <a href="https://hexo.io" target="_blank" rel="external">More</a></li>
+<li>20分钟教你使用hexo搭建github博客 by <strong><em>inerdstack</em></strong> on <code>2016-10-12</code>: <a href="http://www.jianshu.com/p/e99ed60390a8" target="_blank" rel="external">More</a></li>
+<li>Hexo 入门指南（三） - 文章 &amp; 草稿 by <strong><em>飞龙</em></strong> on <code>2014-11-01</code>: <a href="http://jingyan.baidu.com/article/63f236280da7770208ab3d27.html" target="_blank" rel="external">More</a></li>
+<li>手把手教你用Hexo+Github 搭建属于自己的博客 by <strong><em>gdutxiaoxu</em></strong> on <code>2016-12-11</code>: <a href="http://blog.csdn.net/gdutxiaoxu/article/details/53576018?locationNum=3&amp;fps=1" target="_blank" rel="external">More</a></li>
+</ol>
+</blockquote>
+</li>
+<li><p>Yelee</p>
+<blockquote>
+<ol>
+<li>MOxFIVE Blog <code>2017-01-28</code>: <a href="http://moxfive.xyz" target="_blank" rel="external">More</a></li>
+<li>MOxFIVE GitHub: <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" rel="external">More</a></li>
+<li>Yelee Document: <a href="http://moxfive.coding.me/yelee/3.Style-Customisation/heading-style.html" target="_blank" rel="external">More</a></li>
+</ol>
+</blockquote>
+</li>
+<li><p>Google Code Prettify</p>
+<blockquote>
+<ol>
+<li>Hexo优化之使用Google Prettify高亮代码 by <strong><em>柳志超博客</em></strong> on <code>2016-01-09</code>: <a href="https://liuzhichao.com/2016/hexo-use-prettify-to-highlight-code.html" target="_blank" rel="external">More</a></li>
+</ol>
+</blockquote>
+</li>
+</ul>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[Hello 2017]]></title>
       <url>http://Sandyxind.github.io/2017/01/28/New_Year/</url>
       <content type="html"><![CDATA[<p>Happy Chinese New Year<br>New life begin</p>
